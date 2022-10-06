@@ -1,0 +1,14 @@
+export TERM=linux
+
+echo
+echo ==============================
+echo === This is pForth sandbox ===
+echo
+echo it is built upon OpenRISC browser emulator, with real Linux inside!
+echo enter 'pforth' in the command line to start interpreter
+echo
+echo you can also use some advanced tricks like creating program with
+echo editor, e.g. 'vi mycode.fth', and run it 'pforth -q mycode.fth'
+echo
+echo Ready!
+echo

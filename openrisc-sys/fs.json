@@ -1,0 +1,11 @@
+{"src":"fs/", "fs":[
+    { "name":"usr", "mode":"40755", "child":[
+	{ "name":"lib", "mode":"40775", "uid":1000, "gid":1000, "child":[
+	    { "name":"libc.so", "mode":"100755", "size":853648, "uid":1000, "gid":1000, "c":1, "load":1}
+	]}
+    ]},
+    { "name":"lib", "mode":"40755", "uid":1000, "gid":1000, "child":[
+	{ "name":"ld-musl-or1k.so.1", "mode":"120777", "path":"/usr/lib/libc.so"},
+	{ "name":"ld.so.1", "mode":"120777", "path":"/usr/lib/libc.so"}
+    ]}
+]}
